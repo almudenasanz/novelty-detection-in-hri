@@ -5,6 +5,9 @@ IPython Notebook and supporting Python files for my Bachelor Thesis.
 
 The Thesis presents a system that endows a social robot with the capacity of actively want to learn about novel stimuli presented to it, expanding its knowledge base. The data provided for the evaluation of the system comes from another experiment developed in the Department of Automation and Systems Engineering at Universidad Carlos III de Madrid in the field of gesture and pose recognition (https://github.com/VGonPa/datasets-poses2012).
 
+The notebook used for this Thesis can be viewed onlive here:
+http://nbviewer.ipython.org/github/UC3MSocialRobots/novelty-detection-in-hri/blob/master/Novelty%20Detection%20system%20for%20a%20Social%20Robot.ipynb
+
 
 Steps of use
 ========================
