@@ -1,0 +1,35 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Change in the percentage of normal scores considered depending on the value of K multiplying $\sigma $}}{24}{table.caption.57}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces One Class SVM and LSA label interpretation}}{36}{table.caption.84}
+\contentsline {table}{\numberline {4.2}{\ignorespaces K-means and GMM novelty score interpretation}}{36}{table.caption.85}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Color code for the interface}}{38}{table.caption.88}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Data corresponding to the graph in Figure \ref {fig:chart}}}{40}{table.caption.93}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Benchmark of the dataset size for the experiments in size of the base of knowledge. \relax }}{42}{table.caption.98}
+\contentsline {table}{\numberline {4.6}{\ignorespaces Novelty detection F score performance with different sizes of knowledge}}{43}{table.caption.102}
+\contentsline {table}{\numberline {4.7}{\ignorespaces $ K_{GMM} $ used for the different sizes of the base of knowledge\relax }}{44}{table.caption.103}
+\contentsline {table}{\numberline {4.8}{\ignorespaces Benchmark of the dataset size for all of the experiments in global novelties. \relax }}{44}{table.caption.105}
+\contentsline {table}{\numberline {4.9}{\ignorespaces Novelty Detection F score performance for global novelties}}{45}{table.caption.106}
+\contentsline {table}{\numberline {4.10}{\ignorespaces Benchmark of the dataset size for all of the experiments in in-class novelties. \relax }}{46}{table.caption.109}
+\contentsline {table}{\numberline {4.11}{\ignorespaces Description of the sets for in-class novelty detection \relax }}{46}{table.caption.110}
+\contentsline {table}{\numberline {4.12}{\ignorespaces Novelty Detection F score performance for in-class novelties}}{47}{table.caption.111}
+\contentsline {table}{\numberline {4.13}{\ignorespaces Novelty Detection F score performance for multi-class novelty detection}}{48}{table.caption.114}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces Users pointing \emph {right}\relax }}{58}{table.caption.121}
+\contentsline {table}{\numberline {A.2}{\ignorespaces Users pointing \emph {left}\relax }}{59}{table.caption.122}
+\contentsline {table}{\numberline {A.3}{\ignorespaces Users pointing \emph {forward}\relax }}{60}{table.caption.123}
+\contentsline {table}{\numberline {A.4}{\ignorespaces Novelty Detection perfomance for \emph {pointing right} entries}}{61}{table.caption.130}
+\contentsline {table}{\numberline {A.5}{\ignorespaces Novelty Detection perfomance for \emph {pointing left} entries}}{62}{table.caption.131}
+\contentsline {table}{\numberline {A.6}{\ignorespaces Novelty Detection perfomance for \emph {pointing forward} entries}}{62}{table.caption.132}
+\contentsline {table}{\numberline {A.7}{\ignorespaces Novelty Detection perfomance for \emph {pointing left}, pointing hand \emph {left} other hand \emph {hanging} entries}}{63}{table.caption.134}
+\contentsline {table}{\numberline {A.8}{\ignorespaces Novelty Detection perfomance for \emph {pointing left}, pointing hand \emph {right} other hand \emph {hanging} entries}}{63}{table.caption.135}
+\contentsline {table}{\numberline {A.9}{\ignorespaces Novelty Detection perfomance for emph{pointing forward}, pointing hand \emph {right} other hand \emph {hanging} entries}}{63}{table.caption.136}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {C.1}{\ignorespaces Project Budget Estimation\relax }}{69}{table.caption.143}

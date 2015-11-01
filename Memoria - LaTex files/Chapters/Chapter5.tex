@@ -1,0 +1,27 @@
+% Chapter 5
+
+\chapter{State of the Art} % Main chapter title
+
+\label{Chapter5} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+\lhead{Chapter 5. \emph{State of the Art}} % This is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+
+There have been a number of reviews on Novelty Detection from differing theoretical backgrounds. These reviews summarize the main techniques and applications used in the field, and they are very useful to provide an outlook of the State of the Art. The main review used as a reference in this Thesis is \cite{Pimentel2014} from A.F. Pimentel et al, recently published in 2014. There is also a very famous review on Anomaly Detection, 'Anomaly detection: a survey' \citet{Chandola2009}, that introduces the concept of Novelty Detection and provides many examples of algorithms and applications covering this topic. Both provide excellent examples of applications and were the base of novelty detection theory for this Thesis.
+
+The applications of Novelty Detection techniques vary widely in area of application and performance. \citet{Ding2014} provides a comparative evaluation of Novelty Detection methods for 10 different experiments in different areas. The datasets in this experiments varied from breast cancer detection to phonemes analysis. The methods used were a One class SVM based algorithm; a Nearest Neighbor based technique; a clustering technique, such as K means; and a parametric probability density estimation, a Gaussian Mixture. The results showed a better and more stable performance of the K neighbors algorithm. They also showed that the One Class SVM algorithm was more sensitive to the size of the trainig data, requiring more data than the other three methods to increase its performance.  
+
+Literature presents many problems analyzed with Novelty Detection. In fields similar to the problem addressed in this Thesis, we can find a work by \citet{GMM}. The article proposes a framework to detect and segment changes in robotics datasets, using 3D robotic mapping as a case study. The main applicationa are video surveillance or exploration of dangerous environments. In this case, noise avoidance is very important, the data is pre-processed by two consecutive methods (i) a simplification algorithm and (ii) a sparse outliers and ground plane removal methods. The novelty algorithm used is based in GMMs.
+
+One of the studied applications more related to the work in this Thesis is \cite{semantic}. In their article, \citeauthor{semantic}, present an approach to learn the semantics of a room from the human user. For this purpose the agent must be able to identify gaps in its own knowledge. They propose a method based on graphical model to identify novel input which does not match any of the previously learned semantic descriptions. Their method employs a novelty threshold defined in terms of conditional and unconditional probabilities. Our approach also intents to identify novel inputs by applying novelty thresholds, and being able to make the agent identify gaps in its knowledge. However we decided to build this novelty filters with algorithms from different fields, to be able to compare their performance, and to use pose recognition as the dataset in the experiments.  They do not enter into the problem of abstraction and tolerance to noisy data, problem that we address in this Thesis.
+
+In the field of Cumulative Learning Robots, \citet{Nehmzow2013} presents an article on Novelty Detection as an intrinsic motivation for cumulative learning robots. The article describes the theoretical basis of habituation, the task of ignoring perceptions that are similar to those seen during training, but being able to highlight anything different. They explain different novelty detection methods for habituation, including “grow-when-required” (GWR) networks, a similar approach of expanding the base of knowledge when necessary, as the one used in this Thesis.
+
+\citeauthor{Nehmzow2013} conclude their work  explaining that existing Novelty Detection approaches show a number of strengths and weaknesses, and that there is no single universal method for novelty detection, rather than a suitable choice depends on the task.
+
+To the extent of our knowledge, there is no reference on Novelty Detection for pose recognition in a Human-Robot interactive application.
+
+\begin{flushright}
+
+\end{flushright}

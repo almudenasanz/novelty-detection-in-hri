@@ -1,0 +1,22 @@
+% Chapter 6
+
+\chapter{Conclusions} % Main chapter title
+
+\label{Chapter6} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+\lhead{Chapter 6. \emph{Conclusions}} % This is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+This Thesis presents a system that endows a social robot with the capacity of actively want to learn about novel stimuli presented to it, expanding its knowledge base. The stimuli are acquired by the system via a visual system. The novel detection process is achieved using a noise filter and a strangeness detection filter, both formed by Novelty Detection algorithms, whose aim is to detect when an user interacting with the robot is posing in a novel way. Using a novelty detection score and a threshold, the system is able to detect when novel stimuli are presented to it, and actively learn them. This lays the foundations of enabling the sistem to be curious.
+
+Our system has been tested in the application of pose recognition, in which the system learns the poses adopted by the teacher, displaying when the pose adopted is novel. Our experiment consisted of 28 non-robotics experts training the robot three different poses, with variations within them. We evaluated our system by comparing four novelty detection algorithms, for both the noise filter and the strangeness detection filter, achieving different performances for each of them. We found GMM and K-means to be more suitable for the noise filter, and a variety of results for the strangness detection filter, where there was no clear winner. 
+
+The ability of being curious in robots means a huge step in their autonomy and learning habits, making them process information more like humans do. This is a step further to the long pursued objective of general purpose artificial intelligence \cite{Brooks1990}.
+
+We can consider this Thesis as a proof of concept. We have showed that it is possible to build a continuous learning framework, where the robot actively seeks for new examples and knows when to ask questions to its teacher about gaps in its knowledge base, when unrecognized and interesting examples arrive. However, the performances achieved by the algorithms may not be enough depending on the needs of the experiment, and we have observed that not all poses work equally as a base of knowledge. The system presents a decrease in the performance of GMM as more classes are taught to the system, but an increase in One Class SVM and K-means. Thinking about future work in multi-class learning systems, this should be further studied. 
+
+Additionally, our work leaves other paths open for exploration. Firstly, the parameter of the $curiosity$ $factor$ still needs to be calculated and studied experimentally. Secondly, more novelty detection algorithms could be used from other categories, using the concept of the $curiosity$ $factor$. Thirdly, this Thesis has focused on studying a pose recognition problem, but it could be extrapolated to many other applications, such as object detection with cameras or more complex pose and movement interaction.
+
+\begin{flushright}
+
+\end{flushright}

@@ -1,0 +1,37 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Example of a 3D representation of the skeleton shape data retrieved from the Kinect \relax }}{3}{figure.caption.14}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces One class Novelty Detection}}{8}{figure.caption.19}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Novel and noise entries in 2D.}}{10}{figure.caption.22}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Examples of noisy and insteresting entries in the experiment of pose recognition. \relax }}{10}{figure.caption.23}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces System general scheme functioning.}}{14}{figure.caption.28}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Strangeness evaluation step located in the general scheme. \relax }}{16}{figure.caption.30}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Normal distribution}}{18}{figure.caption.34}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Normal distribution for one sigma}}{19}{figure.caption.40}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Interest evaluation step located in the general scheme. \relax }}{20}{figure.caption.48}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Plot of outlier detection in One-class classification}}{22}{figure.caption.49}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Learning step located in the general scheme. \relax }}{25}{figure.caption.59}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces System software and hardware proposed architecture}}{26}{figure.caption.61}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Scenario of the experiment. Retrieved from \cite {Gonzalez-Pacheco2013}. \relax }}{29}{figure.caption.68}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Kinematic of the human body. Retrieved from \cite {Gonzalez-Pacheco2013}- \relax }}{30}{figure.caption.69}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Photo example of a user pointing. Retrieved \cite {Gonzalez-Pacheco2013}. \relax }}{31}{figure.caption.74}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Examples of how different users pointed during the training for pointing poses.}}{31}{figure.caption.75}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces 2D reduction for the pointing dataset with original data. \relax }}{32}{figure.caption.77}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Original data referenced to the Kinect's frame of reference}}{33}{figure.caption.78}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Original data with torso referenced to (0,0,0)}}{33}{figure.caption.79}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces 2D reduction for the pointing dataset with modified data. \relax }}{34}{figure.caption.80}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Graphic interface}}{37}{figure.caption.87}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Interest evaluation step located in the general scheme. \relax }}{39}{figure.caption.91}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Noise score evolution when adding from 1 to 5 users of an unknown class to the system}}{40}{figure.caption.92}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Interest evaluation step located in the general scheme. \relax }}{41}{figure.caption.95}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Graphic interface for multi-class systems}}{48}{figure.caption.113}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Gantt Plan of the Thesis \relax }}{68}{figure.caption.141}

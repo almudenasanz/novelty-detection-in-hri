@@ -1,0 +1,346 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Masters/Doctoral Thesis 
+% LaTeX Template
+% Version 1.43 (17/5/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original authors:
+% Steven Gunn 
+% http://users.ecs.soton.ac.uk/srg/softwaretools/document/templates/
+% and
+% Sunil Patel
+% http://www.sunilpatel.co.uk/thesis-template/
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Note:
+% Make sure to edit document variables in the Thesis.cls file
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt, oneside]{Thesis} % The default font size and one-sided printing (no margin offsets)
+
+\graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
+
+\usepackage[square, numbers, comma, sort&compress]{natbib} % Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers' 
+\hypersetup{urlcolor=blue, colorlinks=true} % Colors hyperlinks in blue - change to black if annoying
+\title{\ttitle} % Defines the thesis title - don't touch this
+
+
+\begin{document}
+
+\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+
+\setstretch{1.3} % Line spacing of 1.3
+
+% Define the page headers using the FancyHdr package and set up for one-sided printing
+\fancyhead{} % Clears all page headers and footers
+\rhead{\thepage} % Sets the right side header to show the page number
+\lhead{} % Clears the left side page header
+
+\pagestyle{fancy} % Finally, use the "fancy" page style to implement the FancyHdr headers
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % New command to make the lines in the title page
+
+% PDF meta-data
+\hypersetup{pdftitle={\ttitle}}
+\hypersetup{pdfsubject=\subjectname}
+\hypersetup{pdfauthor=\authornames}
+\hypersetup{pdfkeywords=\keywordnames}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+\begin{center}
+
+\textsc{\LARGE \univname}\\[1.5cm] % University name
+ 
+\begin{figure}[h]
+\includegraphics[width=4cm]{Figures/Untitled1}
+\centering
+\end{figure}
+
+\textsc{\Large Bachelor Thesis}\\[0.5cm] % Thesis type
+
+\HRule \\[0.4cm] % Horizontal line
+{\huge \bfseries \ttitle}\\[0.4cm] % Thesis title
+\HRule \\[1.5cm] % Horizontal line
+ 
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Author:}\\
+{\authornames} % Author name - remove the \href bracket to remove the link
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Supervisor:} \\
+{\supname} % Supervisor name - remove the \href bracket to remove the link  
+\end{flushright}
+\end{minipage}\\[3cm]
+ 
+%\groupname\\
+\deptname\\ % Research group name and department name
+ 
+{\large \today}\\[4cm] % Date
+%\includegraphics{Logo} % University/department logo - uncomment to place it
+ 
+\vfill
+\end{center}
+
+\end{titlepage}
+
+%----------------------------------------------------------------------------------------
+%	DECLARATION PAGE
+%	Your institution may give you a different text to place here
+%----------------------------------------------------------------------------------------
+
+%\Declaration{
+
+%\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
+%I, \authornames, declare that this thesis titled, '\ttitle' and the work presented in it are my own. I confirm that:
+
+%\begin{itemize} 
+%\item[\tiny{$\blacksquare$}] This work was done wholly or mainly while in candidature for a research degree at this University.
+%\item[\tiny{$\blacksquare$}] Where any part of this thesis has previously been submitted for a degree or any other qualification at this University or any other institution, this has been clearly stated.
+%\item[\tiny{$\blacksquare$}] Where I have consulted the published work of others, this is always clearly attributed.
+%\item[\tiny{$\blacksquare$}] Where I have quoted from the work of others, the source is always given. With the exception of such quotations, this thesis is entirely my own work.
+%\item[\tiny{$\blacksquare$}] I have acknowledged all main sources of help.
+%\item[\tiny{$\blacksquare$}] Where the thesis is based on work done by myself jointly with others, I have made clear exactly what was done by others and what I have contributed myself.\\
+%\end{itemize}
+ 
+%Signed:\\
+%\rule[1em]{25em}{0.5pt} % This prints a line for the signature
+ 
+%Date:\\
+%\rule[1em]{25em}{0.5pt} % This prints a line to write the date
+%}
+
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	QUOTATION PAGE
+%----------------------------------------------------------------------------------------
+
+\pagestyle{empty} % No headers or footers for the following pages
+
+\null\vfill % Add some space to move the quote down the page a bit
+
+\textit{``Be the change you want to see in the world."}
+
+\begin{flushright}
+Mahatma Gandhi
+\end{flushright}
+
+\vfill\vfill\vfill\vfill\vfill\vfill\null % Add some space at the bottom to position the quote just right
+
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT PAGE
+%----------------------------------------------------------------------------------------
+
+\addtotoc{Abstract} % Add the "Abstract" page entry to the Contents
+
+\abstract{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
+% What is the problem? What if the topic of this Thesis
+
+This Thesis presents a system that allows a social human-interactive robot to be able to actively learn novel stimuli presented to it, expanding its knowledge base. 
+
+The system detects unknown patterns and decides when those patterns are worth being learned by the robot. The system architecture leans on novelty detection algorithms, that serve to implement two steps: first filtering noise entries; and then evaluating if the entries that have passed the noise filter are known by the existing model, or on the contrary, they are novel entries that are worth learning. When a novel entry is identified, the system activates the learning process to update the model with this new data.
+ 
+The novelty detection system is evaluated in the pose learning domain. The dataset is composed by 28 users that teach 3 different poses to the system. In the experiments, we compare the performance of four different novelty detection algorithms for this task. We first evaluate the noise filter by analyzing how many entries from the same pose have to be shown to the robot to pass the filter. The second step is tested training  the system with one of the poses, then evaluating if the algorithms are able to detect test entries from other poses as novel. A third experiment tests our system for detecting in-class novelties. The results show that the performances vary between the novelty detection algorithms. The best performance is achieved by GMM, with a 86$\%$ F score for detecting new poses and a 80$\%$ F score to detect variations within poses. 
+
+This novelty detection system opens the door for robotic systems to be able to act as active learners, making their own decisions about when it is worth to learn from new stimuli. Additionally, to the extent of our knowledge, there is no reference on Novelty Detection for pose recognition in a Human-Robot interactive application, so this work is a novelty itself.  
+
+}
+
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	ACKNOWLEDGEMENTS
+%----------------------------------------------------------------------------------------
+
+\setstretch{1.3} % Reset the line-spacing to 1.3 for body text (if it has changed)
+
+\acknowledgements{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
+I would like to express my sincere gratitude to every person who has helped me in my path to finish successfully my Engineering Degree.  
+
+To my Thesis's director, Victor, who has helped me understand and organize the topic of the Thesis. He has also guided my in the research process, and has encouraged and motivated me to see research as a possible career path.
+
+To the Department of Systems Engineering and Automation, and everyone who made possible that my design could be tested.
+
+To all my professors, in Universidad Carlos III de Madrid and in UC Berkeley. They have taught me not only concepts, but a mindset to face life. 
+
+To my friends, who have helped me through the bad and the good times, and who have always believed in me and tried to understand me. Than you for cheering for me.
+
+To my family, for their infinite support and comprehension. None of this would have been possible without you.
+
+\bigskip  ------
+
+Me gustaría expresar mi más sincera gratitud a todas las personas que me han ayudado en el camino a realizar mi grado en Ingeniería.
+
+A mi director de Tesis, Víctor, que me ha ayudado a entender y organizar el tema del trabajo. También me ha guiado en el proceso de investigación, y me ha animado y motivado a ver la investigación como una posibilidad de salida para mi carrera.
+
+Al Departamento de Ingeniería de Sistemas y Automatización, y a todas las personas que han hecho posible que mi diseño se haya podido probar. 
+
+A todos mis profesores en la Universidad Carlos III de Madrid y en UC Berkeley. No solo me han enseñado conceptos, sino también una mentalidad para enfrentarme a la vida. 
+
+A mis amigos, que me han ayudado en lo bueno y en lo malo, y que siempre han creído en mi y han tratado de entenderme. Muchas gracias por los ánimos.
+
+A mi familia, por su apoyo y comprensión infinitas. Nada de esto habría sido posible sin vosotros.   
+
+}
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	LIST OF CONTENTS/FIGURES/TABLES PAGES
+%----------------------------------------------------------------------------------------
+
+\pagestyle{fancy} % The page style headers have been "empty" all this time, now use the "fancy" headers as defined before to bring them back
+
+\lhead{\emph{Contents}} % Set the left side page header to "Contents"
+\tableofcontents % Write out the Table of Contents
+
+\lhead{\emph{List of Figures}} % Set the left side page header to "List of Figures"
+\listoffigures % Write out the List of Figures
+
+\lhead{\emph{List of Tables}} % Set the left side page header to "List of Tables"
+\listoftables % Write out the List of Tables
+
+
+%----------------------------------------------------------------------------------------
+%	DEFINITIONS
+%----------------------------------------------------------------------------------------
+
+\clearpage % Start a new page
+
+\setstretch{1.5} % Set the line spacing to 1.5, this makes the following tables easier to read
+
+\setcounter{chapter}{0}
+
+\chapter{Definitions} % Add the "Abstract" page entry to the Contents
+
+\lhead{\emph{Defintions}} % Set the left side page header to "Abbreviations"
+
+\label{definitions}
+\begin{table}[h]
+\begin{tabular}{l p{10cm}} % Include a list of Abbreviations (a table of two columns)
+\emph{curiosity} & “a strong desire to know and learn something” and “an unusual or interesting object or fact” \cite{oxford}. First mentioned in page \pageref{curiosity}. \\ \\
+\emph{novel stimuli} & “different from anything known before; new, interesting and often seeming slightly strange” \cite{Pimentel2014}. First mentioned in page \pageref{novel}. \\ \\
+\emph{new data entry} & the data entry has not been presented to the system any time before, defined in page \pageref{new}. \\ \\
+\emph{strange data entry} &  data entry that does not conform with the base of knowledge, defined in page \pageref{new}. Opposite to \emph{known data}, defined as data similar to the entries formed by the base of knowledge. \\ \\
+\emph{interesting data entry} & data entry that is relevant to understand how the system works, defined in Chapter page \pageref{new}. Opposite to \emph{noise}, defined as meaningless data. \\ \\
+\emph{Novelty Detection} & “detecting previously unobserved (emergent, novel) patterns in the data” \cite{Chandola2009}. First mentioned in page \pageref{novelty}.\\ \\
+\emph{abnormal or anomalous data} & “data that differs from the data in the training dataset" \cite{Pimentel2014}. Opposite to \emph{normal data}, defined as data that can be predicted by the model of the training set. First mentioned in page \pageref{abnormal}.\\ \\
+%\textbf{Acronym} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or \\
+
+\end{tabular}
+\end{table}
+
+
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	DEFINITIONS
+%----------------------------------------------------------------------------------------
+
+%\clearpage % Start a new page
+
+%\lhead{\emph{Definitions}} % Set the left side page header to "Symbols"
+
+%\listofnomenclature{ll} % Include a list of Symbols (a three column table)
+%{
+%Name & Definition
+%\emph{curiosity} & "a strong desire to know and learn something” and "and unusual or interesting object or fact” \cite{oxford} \\
+%\emph{novel stimuli} & "different from anything known before; new, interesting and often seeming slightly strange” \cite{Pimentel2014} \\
+%\emph{new data entry} & the data entry has not been presented to the system any time before, defined in page 5 \\
+%\emph{strange data entry} &  data entry that does not conform with the base of knowledge, defined in page 5 \\
+%\emph{interesting data entry} & data entry that is relevant to understand how the system works, defined in page 5 \\
+%\emph{Novelty Detection} & “detecting previously unobserved (emergent, novel) patterns in the data” \cite{Chandola2009}\\
+%\emph{abnormal data} & "data that differs from the data in the training dataset" \cite{Pimentel2014} \\
+
+%& & \\ % Gap to separate the Roman symbols from the Greek
+
+%$\omega$ & angular frequency & rads$^{-1}$ \\
+% Symbol & Name & Unit \\
+%}
+
+%----------------------------------------------------------------------------------------
+%	DEDICATION
+%----------------------------------------------------------------------------------------
+
+\setstretch{1.3} % Return the line spacing back to 1.3
+
+\pagestyle{empty} % Page style needs to be empty for this page
+
+\dedicatory{Dedicado a mis abuelos, que siempre alentaron mi curiosidad
+
+To my grandparents, who always encouraged my curiosity} % Dedication text
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+\mainmatter % Begin numeric (1,2,3...) page numbering
+
+\pagestyle{fancy} % Return the page headers back to the "fancy" style
+
+% Include the chapters of the thesis as separate files from the Chapters folder
+% Uncomment the lines as you write the chapters
+
+\input{Chapters/Chapter1}
+\input{Chapters/Chapter2} 
+\input{Chapters/Chapter3}
+\input{Chapters/Chapter4} 
+\input{Chapters/Chapter5} 
+\input{Chapters/Chapter6} 
+\input{Chapters/Chapter7} 
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
+
+% Include the appendices of the thesis as separate files from the Appendices folder
+% Uncomment the lines as you write the Appendices
+
+\input{Appendices/AppendixA}
+\input{Appendices/AppendixB}
+\input{Appendices/AppendixC}
+%\input{Appendices/AppendixD}
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\backmatter
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\label{Bibliography}
+
+\lhead{\emph{Bibliography}} % Change the page header to say "Bibliography"
+
+\bibliographystyle{unsrtnat} % Use the "unsrtnat" BibTeX style for formatting the Bibliography
+
+\bibliography{Bibliography} % The references (bibliography) information are stored in the file named "Bibliography.bib"
+
+\end{document}  

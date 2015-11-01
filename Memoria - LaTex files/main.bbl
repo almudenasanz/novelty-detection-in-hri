@@ -1,0 +1,307 @@
+\begin{thebibliography}{40}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Gonzalez-Pacheco et~al.(2013)Gonzalez-Pacheco, Malfaz, Fernandez, and
+  Salichs]{Gonzalez-Pacheco2013}
+Victor Gonzalez-Pacheco, Maria Malfaz, Fernando Fernandez, and Miguel~a
+  Salichs.
+\newblock {Teaching human poses interactively to a social robot.}
+\newblock \emph{Sensors (Basel, Switzerland)}, 13\penalty0 (9):\penalty0
+  12406--30, January 2013.
+\newblock ISSN 1424-8220.
+\newblock \doi{10.3390/s130912406}.
+\newblock URL
+  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3821356\&tool=pmcentrez\&rendertype=abstract}.
+
+\bibitem[Press()]{oxford}
+Oxford~University Press.
+\newblock Curiosity: definition of curiosity in {O}xford {D}ictionary.
+\newblock URL \url{http://www.oxforddictionaries.com}.
+\newblock last visited on 2014-06-22.
+
+\bibitem[A.F.~Pimentel et~al.(2014)A.F.~Pimentel, Clifton, Clifton, and
+  Tarassenko]{Pimentel2014}
+Marco A.F.~Pimentel, David~a. Clifton, Lei Clifton, and Lionel Tarassenko.
+\newblock {A review of novelty detection}.
+\newblock \emph{Signal Processing}, 99:\penalty0 215--249, June 2014.
+\newblock ISSN 01651684.
+\newblock \doi{10.1016/j.sigpro.2013.12.026}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/S016516841300515X}.
+
+\bibitem[Chandola et~al.(2009)Chandola, Banerjee, and Kumar]{Chandola2009}
+Varun Chandola, Arindam Banerjee, and Vipin Kumar.
+\newblock {Anomaly detection: {A} survey}.
+\newblock \emph{ACM Computing Surveys (CSUR)}, 41\penalty0 (3):\penalty0 1--58,
+  2009.
+\newblock URL
+  \url{http://portal.acm.org/citation.cfm?id=1541882$\backslash$nhttp://dl.acm.org/citation.cfm?id=1541882$\backslash$nhttp://portal.acm.org/citation.cfm?doid=1541880.1541882}.
+
+\bibitem[Cakmak et~al.(2010)Cakmak, Chao, and Thomaz]{Cakmak2010}
+Maya Cakmak, Crystal Chao, and Andrea~L Thomaz.
+\newblock {Designing Interactions for Robot Active Learners}.
+\newblock \emph{IEEE Transactions on Autonomous Mental Development}, 2\penalty0
+  (2):\penalty0 108--118, June 2010.
+\newblock ISSN 1943-0604.
+\newblock \doi{10.1109/TAMD.2010.2051030}.
+\newblock URL
+  \url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5471105}.
+
+\bibitem[Nehmzow et~al.(2013)Nehmzow, Gatsoulis, Kerr, Condell, Siddique, and
+  Mcginnity]{Nehmzow2013}
+Ulrich Nehmzow, Yiannis Gatsoulis, Emmett Kerr, Joan Condell, Nazmul Siddique,
+  and T~Martin Mcginnity.
+\newblock {Intrinsically Motivated Learning in Natural and Artificial Systems}.
+\newblock pages 185--207, 2013.
+\newblock \doi{10.1007/978-3-642-32375-1}.
+\newblock URL \url{http://link.springer.com/10.1007/978-3-642-32375-1}.
+
+\bibitem[Brooks(1990)]{Brooks1990}
+Rodney~a. Brooks.
+\newblock {Elephants don't play chess}.
+\newblock \emph{Robotics and Autonomous Systems}, 6\penalty0 (1-2):\penalty0
+  3--15, June 1990.
+\newblock ISSN 09218890.
+\newblock \doi{10.1016/S0921-8890(05)80025-9}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/S0921889005800259}.
+
+\bibitem[Gwadera et~al.(2003)Gwadera, Atallah, and Szpankowski]{frequency}
+R.~Gwadera, M.J. Atallah, and W.~Szpankowski.
+\newblock Reliable detection of episodes in event sequences.
+\newblock In \emph{Data Mining, 2003. ICDM 2003. Third IEEE International
+  Conference on}, pages 67--74, Nov 2003.
+\newblock \doi{10.1109/ICDM.2003.1250904}.
+
+\bibitem[the~free Encyclopedia({\natexlab{a}})]{standard}
+Wikipedia the~free Encyclopedia.
+\newblock Standard score, {\natexlab{a}}.
+\newblock URL \url{http://en.wikipedia.org/wiki/Standard_score}.
+\newblock last visited on 2014-06-22.
+
+\bibitem[Pedregosa et~al.(2011)Pedregosa, Varoquaux, Gramfort, Michel, Thirion,
+  Grisel, Blondel, Prettenhofer, Weiss, Dubourg, Vanderplas, Passos,
+  Cournapeau, Brucher, Perrot, and Duchesnay]{scikit-learn}
+F.~Pedregosa, G.~Varoquaux, A.~Gramfort, V.~Michel, B.~Thirion, O.~Grisel,
+  M.~Blondel, P.~Prettenhofer, R.~Weiss, V.~Dubourg, J.~Vanderplas, A.~Passos,
+  D.~Cournapeau, M.~Brucher, M.~Perrot, and E.~Duchesnay.
+\newblock Scikit-learn: Machine learning in {P}ython.
+\newblock \emph{Journal of Machine Learning Research}, 12:\penalty0 2825--2830,
+  2011.
+
+\bibitem[J.A.~Quinn(2014)]{lsa}
+M.~Sugiyama. J.A.~Quinn.
+\newblock A least-squares approach to anomaly detection in static and
+  sequential data.
+\newblock \emph{Pattern Recognition Letters}, 40:\penalty0 36--40, 2014.
+
+\bibitem[Salichs et~al.(2006)Salichs, Barber, Khamis, Malfaz, Gorostiza,
+  Pacheco, Rivas, Corrales, Delgado, and Garcia]{maggie}
+Miguel Salichs, Ramon Barber, Alaa Khamis, Maria Malfaz, Javier Gorostiza,
+  Rakel Pacheco, Rafael Rivas, Ana Corrales, Elena Delgado, and David Garcia.
+\newblock {Maggie: A Robotic Platform for Human-Robot Social Interaction}.
+\newblock In \emph{2006 IEEE Conference on Robotics, Automation and
+  Mechatronics}, pages 1--7, Bangkok, Thailand, December 2006. IEEE.
+\newblock ISBN 1-4244-0024-4.
+\newblock \doi{10.1109/RAMECH.2006.252754}.
+\newblock URL
+  \url{http://ieeexplore.ieee.org/xpl/freeabs\_all.jsp?arnumber=4018870
+  http://roboticslab.uc3m.es/publications/2006 CIS RAM Maggie.pdf
+  http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=4018870}.
+
+\bibitem[the~free Encyclopedia({\natexlab{b}})]{pca}
+Wikipedia the~free Encyclopedia.
+\newblock Principal {C}omponent {A}nalysis, {\natexlab{b}}.
+\newblock URL \url{http://en.wikipedia.org/wiki/Principal_component_analysis}.
+\newblock last visited on 2014-06-22.
+
+\bibitem[of~Waikato()]{arff}
+The~University of~Waikato.
+\newblock Arff (book version), June .
+\newblock URL \url{http://weka.wikispaces.com/ARFF+%28book+version%29}.
+\newblock last visited on 2014-06-22.
+
+\bibitem[Foundation()]{python}
+Python~Software Foundation.
+\newblock Welcome to {P}ython.org.
+\newblock URL \url{https://www.python.org}.
+\newblock last visited on 2014-06-22.
+
+\bibitem[P\'erez and Granger(2007)]{ipython}
+Fernando P\'erez and Brian~E. Granger.
+\newblock {IP}ython: a system for interactive scientific computing.
+\newblock \emph{Computing in Science and Engineering}, 9\penalty0 (3):\penalty0
+  21--29, May 2007.
+\newblock ISSN 1521-9615.
+\newblock \doi{10.1109/MCSE.2007.53}.
+\newblock URL \url{http://ipython.org}.
+
+\bibitem[Olive(2014{\natexlab{a}})]{github}
+Almudena~Sanz Olive.
+\newblock Novelty {D}etection in {H}{R}{I}. {G}ithub repository, June
+  2014{\natexlab{a}}.
+\newblock URL
+  \url{https://github.com/UC3MSocialRobots/novelty-detection-in-hri}.
+\newblock last visited on 2014-06-22.
+
+\bibitem[Olive(2014{\natexlab{b}})]{notebook}
+Almudena~Sanz Olive.
+\newblock Novelty detection system for a social robot. {I}{P}ython notebook,
+  June 2014{\natexlab{b}}.
+\newblock URL
+  \url{http://nbviewer.ipython.org/github/UC3MSocialRobots/novelty-detection-in-hri/blob/master/Novelty%20Detection%20system%20for%20a%20Social%20Robot.ipynb}.
+
+\bibitem[Hunter(2007)]{matplotlib}
+J.~D. Hunter.
+\newblock Matplotlib: A 2d graphics environment.
+\newblock \emph{Computing In Science \& Engineering}, 9\penalty0 (3):\penalty0
+  90--95, 2007.
+
+\bibitem[McKinney(2010)]{pandas}
+Wes McKinney.
+\newblock Data structures for statistical computing in python.
+\newblock In St\'efan van~der Walt and Jarrod Millman, editors,
+  \emph{Proceedings of the 9th Python in Science Conference}, pages 51 -- 56,
+  2010.
+
+\bibitem[Jones et~al.(2001--)Jones, Oliphant, Peterson, et~al.]{numpy}
+Eric Jones, Travis Oliphant, Pearu Peterson, et~al.
+\newblock {SciPy}: Open source scientific tools for {Python}, 2001--.
+\newblock URL \url{http://www.scipy.org/}.
+
+\bibitem[Ding et~al.(2014)Ding, Li, Belatreche, and Maguire]{Ding2014}
+Xuemei Ding, Yuhua Li, Ammar Belatreche, and Liam~P. Maguire.
+\newblock {An experimental evaluation of novelty detection methods}.
+\newblock \emph{Neurocomputing}, 135:\penalty0 313--327, July 2014.
+\newblock ISSN 09252312.
+\newblock \doi{10.1016/j.neucom.2013.12.002}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/S0925231213011314}.
+
+\bibitem[Drews et~al.(2013)Drews, N\'{u}\~{n}ez, Rocha, Campos, and Dias]{GMM}
+Paulo Drews, Pedro N\'{u}\~{n}ez, Rui~P. Rocha, Mario Campos, and Jorge Dias.
+\newblock {Novelty detection and segmentation based on Gaussian mixture models:
+  A case study in 3D robotic laser mapping}.
+\newblock \emph{Robotics and Autonomous Systems}, 61\penalty0 (12):\penalty0
+  1696--1709, December 2013.
+\newblock ISSN 09218890.
+\newblock \doi{10.1016/j.robot.2013.06.004}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/S0921889013001115}.
+
+\bibitem[Pinto et~al.(2011)Pinto, Pronobis, and Reis]{semantic}
+AndréSusano Pinto, Andrzej Pronobis, and LuisPaulo Reis.
+\newblock Novelty detection using graphical models for semantic room
+  classification.
+\newblock In Luis Antunes and H.Sofia Pinto, editors, \emph{Progress in
+  Artificial Intelligence}, volume 7026 of \emph{Lecture Notes in Computer
+  Science}, pages 326--339. Springer Berlin Heidelberg, 2011.
+\newblock ISBN 978-3-642-24768-2.
+\newblock \doi{10.1007/978-3-642-24769-9_24}.
+\newblock URL \url{http://dx.doi.org/10.1007/978-3-642-24769-9_24}.
+
+\bibitem[goo(2013)]{google}
+Self-driving car test: {S}teve {M}ahan, 2013.
+\newblock URL
+  \url{http://www.google.com/about/careers/lifeatgoogle/self-driving-car-test-steve-mahan.html}.
+\newblock last visited on 2014-06-22.
+
+\bibitem[Taylor(2014)]{board}
+Jordyn Taylor.
+\newblock V.c. firm names robot to board of directors, 2014.
+\newblock URL
+  \url{http://betabeat.com/2014/05/v-c-firm-names-robot-to-board-of-directors/}.
+\newblock last visited on 2014-06-22.
+
+\bibitem[Stephen~Hawking(2014)]{hawking}
+Max Tegmark Frank~Wilczek Stephen~Hawking, Stuart~Russell.
+\newblock Transcendence looks at the implications of {A}rtificial
+  {I}ntelligence - but are we taking {A}{I} seriously enough?, June 2014.
+\newblock URL \url{http://ind.pn/1qq1QZU}.
+\newblock last visited on 2014-06-22.
+
+\bibitem[the~free Encyclopedia({\natexlab{c}})]{wiki-roboethics}
+Wikipedia the~free Encyclopedia.
+\newblock Roboethics, {\natexlab{c}}.
+\newblock URL \url{http://en.wikipedia.org/wiki/Roboethics}.
+\newblock last visited on 2014-06-22.
+
+\bibitem[Veruggio and Operto(2008)]{roboethics}
+Gianmarco Veruggio and Fiorella Operto.
+\newblock Roboethics: Social and ethical implications of robotics.
+\newblock In Bruno Siciliano and Oussama Khatib, editors, \emph{Springer
+  Handbook of Robotics}, pages 1499--1524. Springer Berlin Heidelberg, 2008.
+\newblock ISBN 978-3-540-23957-4.
+\newblock \doi{10.1007/978-3-540-30301-5_65}.
+\newblock URL \url{http://dx.doi.org/10.1007/978-3-540-30301-5_65}.
+
+\bibitem[EUR()]{EURON}
+European robotics research network.
+\newblock URL \url{http://www.euron.org}.
+\newblock last visited on 2014-06-22.
+
+\bibitem[{Dr. Gianmarco Veruggio}(2006)]{roadmap}
+{Dr. Gianmarco Veruggio}.
+\newblock {EURON Roboethics Roadmap}.
+\newblock 1\penalty0 (July):\penalty0 1--42, 2006.
+\newblock URL
+  \url{http://www.roboethics.org/atelier2006/docs/ROBOETHICS%20ROADMAP%20Rel2.1.1.pdf}.
+
+\bibitem[initiative()]{ori}
+Open~Roboethics initiative.
+\newblock Ori-about.
+\newblock URL \url{http://www.openroboethics.org/about/}.
+\newblock last visited on 2014-06-22.
+
+\bibitem[Smith()]{gnu}
+Brett Smith.
+\newblock A quick guide to gplv3.
+\newblock URL \url{http://www.gnu.org/licenses/quick-guide-gplv3.html}.
+\newblock last visited on 2014-06-22.
+
+\bibitem[Wang()]{gnu-obli}
+Kevin Wang.
+\newblock Gnu general public license v3 (gpl-3).
+\newblock URL
+  \url{https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)}.
+\newblock last visited on 2014-06-22.
+
+\bibitem[Initiative({\natexlab{a}})]{open_source}
+Open~Source Initiative.
+\newblock The open source initiative, {\natexlab{a}}.
+\newblock URL \url{http://opensource.org}.
+\newblock last visited on 2014-06-22.
+
+\bibitem[Initiative({\natexlab{b}})]{bsd}
+Open~Source Initiative.
+\newblock The bsd 3-clause license, {\natexlab{b}}.
+\newblock URL \url{http://opensource.org/licenses/BSD-3-Clause}.
+\newblock last visited on 2014-06-22.
+
+\bibitem[ipy(2011)]{ipy_l}
+License and copyright — ipython 3.0.0-dev documentation, 2011.
+\newblock URL
+  \url{http://ipython.org/ipython-doc/dev/about/license_and_copyright.html}.
+\newblock last visited on 2014-06-22.
+
+\bibitem[Developers()]{numpy_l}
+NumPy Developers.
+\newblock Numpy license.
+\newblock URL \url{http://docs.scipy.org/doc/numpy/license.html}.
+\newblock last visited on 2014-06-22.
+
+\bibitem[pan()]{pandas_l}
+Package overview - pandas 0.14.0 documentation.
+\newblock URL \url{http://pandas.pydata.org/pandas-docs/stable/overview.html}.
+\newblock last visited on 2014-06-22.
+
+\bibitem[mat()]{matplotlib_l}
+Matplotlib license.
+\newblock URL \url{http://matplotlib.org/users/license.html}.
+\newblock last visited on 2014-06-22.
+
+\end{thebibliography}
